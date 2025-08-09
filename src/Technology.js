@@ -23,6 +23,8 @@ const Technology = () => {
   return (
     <div className="bg-technology-mobile flex flex-col  min-h-screen bg-cover bg-center sm:bg-technology-tablet lg:bg-technology-desktop m-0">
       <Nav />
+      {isLoading && <p className="text-white text-center">Loading...</p>}
+      {fetchError && <p className="text-red-500 text-center">{fetchError}</p>}
       <p className="text-white text-center sm:text-left sm:pl-[2rem] lg:pl-[5rem] uppercase lg:text-[1.5rem]">
         <span className="text-gray-500 pr-[1rem]">03</span> SPACE LAUNCH 101
       </p>

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import useWindowSize from "./hooks/useWindowSize";
 const Nav = () => {
   const [mobileNav, setMobileNav] = useState(false);
   const linkBase =

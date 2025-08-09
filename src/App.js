@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import Nav from "./Nav";
 import Home from "./Home";
 import Destination from "./Destination";
 import Crew from "./Crew";
