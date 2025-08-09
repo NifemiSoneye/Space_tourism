@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+Frontend Mentor - Space tourism website solution
+This is a solution to the Space tourism website challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of contents
+Overview
 
-## Available Scripts
+The challenge
 
-In the project directory, you can run:
+Screenshot
 
-### `npm start`
+Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+My process
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Built with
 
-### `npm test`
+What I learned
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Continued development
 
-### `npm run build`
+Useful resources
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Author
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Acknowledgments
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Overview
+The challenge
+Users should be able to:
 
-### `npm run eject`
+View the optimal layout for each of the website's pages depending on their device's screen size
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+See hover states for all interactive elements on the page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+View each page and toggle between tabs to see new information dynamically loaded from data files
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Screenshot
+![alt text](image.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Links
+Solution URL: Add solution URL here
 
-## Learn More
+Live Site URL: Add live site URL here
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+My process
+Built with
+Semantic HTML5 markup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+CSS custom properties
 
-### Code Splitting
+Flexbox
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+CSS Grid
 
-### Analyzing the Bundle Size
+Mobile-first workflow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+React – JS library
 
-### Making a Progressive Web App
+Vite – Development build tool
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Custom Hooks (for fetching data and handling responsive layouts)
 
-### Advanced Configuration
+What I learned
+While building this project, I improved my skills in:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Creating reusable React components for navigation, content tabs, and dynamic images.
 
-### Deployment
+Managing responsive layouts using a custom useWindowSize hook.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Loading structured JSON data and mapping it to UI components for different pages.
 
-### `npm run build` fails to minify
+Using conditional rendering for images based on screen width:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+jsx
+Copy
+Edit
+{width > 768
+? <img src={tech.images.portrait} alt={tech.name} />
+: <img src={tech.images.landscape} alt={tech.name} />
+}
+Continued development
+I plan to:
+
+Implement animations for smoother transitions between tabs.
+
+Add accessibility improvements (ARIA labels, keyboard navigation).
+
+Enhance image optimization for faster loading times.
+
+Useful resources
+React Docs – Excellent resource for understanding hooks and component structure.
+
+MDN Web Docs – Helpful for CSS Grid and Flexbox layouts.
+
+Vite Documentation – Helped me optimize the build process for faster development.
+
+Author
+Website – Nifemi Soneye
+
+Frontend Mentor – @yourusername
+
+Twitter – @AFCNIFEMI
+
+Acknowledgments
+Thanks to the Frontend Mentor community for sharing ideas and solutions that helped inspire parts of this project. Special thanks to those who posted tips on dynamic data loading in React.
