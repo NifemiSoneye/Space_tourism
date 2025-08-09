@@ -97,7 +97,7 @@ Vite Documentation – Helped me optimize the build process for faster developme
 Author
 Website – Nifemi Soneye
 
-Frontend Mentor – @yourusername
+Frontend Mentor – @NifemiSoneye
 
 Twitter – @AFCNIFEMI
 
