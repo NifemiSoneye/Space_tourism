@@ -55,7 +55,7 @@ const Crew = () => {
     }, 10000);
 
     return () => clearInterval(interval);
-  }, [activePersonel, , crew]);
+  }, [activePersonel, crew]);
 
   return (
     <div className="bg-crew-mobile flex flex-col  min-h-screen bg-cover bg-center sm:bg-crew-tablet lg:bg-crew-desktop">
