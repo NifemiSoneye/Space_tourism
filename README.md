@@ -40,7 +40,7 @@ Screenshot
 Links
 Solution URL: Add solution URL here
 
-Live Site URL: Add live site URL here
+Live Site URL: [Add live site URL here](https://spacetourismsolution.netlify.app/)
 
 My process
 Built with
